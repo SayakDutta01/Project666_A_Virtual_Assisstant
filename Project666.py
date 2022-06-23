@@ -409,7 +409,7 @@ def followmycommand():
     elif 'open sublime text' in query:
         print("Project666 : Opening Sublime text")
         speak('opening sublime text')
-        Apppath = "C:\\Program Files\\Sublime Text 3\\sublime_text.exe"
+        Apppath = "C:\\Program Files\\Sublime Text 3\\sublime_text.exe" #Enter the correct Path according to your system
         os.startfile(Apppath)
 
     elif 'volume up' in query or 'increase the volume' in query:
@@ -440,7 +440,7 @@ def followmycommand():
     elif 'open zoom' in query:
         print("Project666 : Opening Zoom")
         speak('opening zoom')
-        zoompath = "C:\\Users\\SAYAK DUTTA\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe"
+        zoompath = "C:\\Users\\User name\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe" #Enter the correct Path according to your system
         os.startfile(zoompath)
 
     elif 'close zoom' in query:
@@ -479,7 +479,7 @@ def followmycommand():
     elif 'open whatsapp' in query:
         print("Project666 : Opening Whatsapp ")
         speak('opening whatsapp')
-        WhatsApppath = "C:\\Users\\SAYAK DUTTA\\Desktop\\WhatsApp"
+        WhatsApppath = "C:\\WhatsApp" #Enter the correct Path according to your system
         os.startfile(WhatsApppath)
 
     elif 'close whatsapp' in query:
@@ -513,7 +513,7 @@ def followmycommand():
     elif 'open powerpoint' in query:
         print("PROJECT666 : Opening Ms PowerPoint")
         speak('opening ms powerpoint ')
-        powerPath = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Microsoft Office\\Microsoft Office PowerPoint 2007"
+        powerPath = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Microsoft Office\\Microsoft Office PowerPoint 2007" #Enter the correct Path according to your system
         os.startfile(powerPath)
 
     elif 'close powerpoint' in query:
@@ -581,7 +581,7 @@ def followmycommand():
         window.update()
         speak('opening python Ide')
         os.startfile(
-            'C:\\Users\\SAYAK DUTTA\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.9\\IDLE (Python 3.9 64-bit)')  # Enter the correct Path according to your system
+            'C:\\Users\\User Name\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.9\\IDLE (Python 3.9 64-bit)')  # Enter the correct Path according to your system
 
     # elif 'open code blocks' in query:
     #     var.set('Opening Codeblocks')
