@@ -1,24 +1,24 @@
 from tkinter import *
 import cv2
-import PIL.Image, PIL.ImageTk
+import PIL.Image, PIL.ImageTk #The Image module provides a class with the same name which is used to represent a PIL image. The module also provides a number of factory functions, including functions to load images from files, and to create new images.
 import pyttsx3
 import datetime
 import speech_recognition as sr
-import wikipedia
+import wikipedia 
 import webbrowser
 import os
 import random
-import pyjokes
-import smtplib
-import psutil
+import pyjokes #creates one line jokes for programmers
+import smtplib #It defines an SMTP client session object that can be used to send mail to any internet machine with SMTP or ESMTP listener daemon
+import psutil #used to access system details and process utilites
 import roman
 import keyboard
 from PIL import Image
-import pyautogui
+import pyautogui #It can automate the GUI and programmatically control and mouse
 import requests
 from requests import get
-from bs4 import BeautifulSoup
-import sys
+from bs4 import BeautifulSoup #used for web scraping purposes to pull the data out of HTML and XML files
+import sys #provides access to variables used or maintained by the interpreter and some functions that interact strongly with the interpreter
 import time
 
 numbers = {'hundred': 100, 'thousand': 1000, 'lakh': 100000}
