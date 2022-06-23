@@ -158,14 +158,14 @@ def followmycommand():
         window.update()
         speak("What should I write Master")
         note = takeCommand()
-        file = open('C:\\Users\\SAYAK DUTTA\Desktop\\file.txt', 'w')
+        file = open('C:\\file.txt', 'w') #
         file.write(note)
 
     elif "show me the note" in query:
         var.set("Showing Notes")
         window.update()
         speak("Showing Notes")
-        file = open('C:\\Users\\SAYAK DUTTA\Desktop\\file.txt', "r")
+        file = open('C:\\file.txt', "r")
         print("Project666: ", file.read())
         speak(file.read(6))
 
@@ -783,7 +783,7 @@ label1.config(font=("Courier", 20))
 var.set('Welcome Sir')
 label1.pack()
 
-frames = [PhotoImage(file='C:\\Users\\SAYAK DUTTA\\Desktop\\Assistant.gif', format='gif -index %i' % (i))
+frames = [PhotoImage(file='C:\\Assistant.gif', format='gif -index %i' % (i))
           for i in range(100)]
 window.title('Projecte666, A Personal Assistant By RED STAR')
 
